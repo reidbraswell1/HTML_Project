@@ -1,15 +1,19 @@
 .container {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .header {
-    background-color: red;
+    background-color:#fff;
+    background-image: linear-gradient(#b6271d, #932018);
+    background-repeat: repeat-x;
 }
 
 .logo {
     display: flex;
     justify-content: space-around;
+    width: 100vw;
 }
 
 .nav-list {
