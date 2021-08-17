@@ -1,27 +1,40 @@
 .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .header {
-    background-color:#fff;
-    background-image: linear-gradient(#b6271d, #932018);
-    background-repeat: repeat-x;
+  background-color: #fff;
+  background-image: linear-gradient(#b6271d, #932018);
+  background-repeat: repeat-x;
+  width: 100vw;
 }
 
 .logo {
-    display: flex;
-    justify-content: space-around;
-    width: 100vw;
+  display: flex;
+  justify-content: space-around;
+  width: 100vw;
 }
 
 .nav-list {
-    list-style-type: none;
-    color: white;
-    font-weight: bold;
+  list-style-type: none;
+  color: white;
+  font-weight: bold;
 }
 
 .nav-list li {
-    display: inline-block;
+  display: inline-block;
+}
+
+.body-image {
+  position: relative;
+  overflow: hidden;
+  height: 350px;
+  
+}
+
+.body-amp {
+    width: 940px;
+    height: auto;
 }
